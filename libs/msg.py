@@ -7,7 +7,10 @@ import ConfigParser
 import requests
 from werkzeug.contrib.cache import FileSystemCache
 
-# 消息二维码 https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQG_8TwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAySS1Zdk5aQ2ZlNjAxMDAwME0wNzUAAgQG4u9ZAwQAAAAA
+# 消息二维码 https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=gQHm8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyQjNmSU5lQ2ZlNjAxMDAwME0wN24AAgQAUTpaAwQAAAAA
+
+
+
 class Message:
     def __init__(self):
         #获取当前目录
